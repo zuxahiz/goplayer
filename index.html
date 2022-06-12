@@ -66,8 +66,8 @@ function load(path)  {
 function populate(files) {
 	var $b = $('#browser').empty();
 	function add(i, f) {
-		if (f.Name[0] == '.' || f.Name[0] == ':') return;
-    var dir = f.IsDir;
+		// if (f.Name[0] == '.' || f.Name[0] == ':') return;
+    	var dir = f.IsDir;
 		var cl = dir ? "dir" : "file";
 		f.Path = path.join('/');
 		$('<a></a>').text(f.Name).data('file', f)

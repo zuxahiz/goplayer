@@ -21,7 +21,7 @@ const (
 
 var (
 	addr = flag.String("http", ":8080", "http listen address")
-	root = flag.String("root", "/home/flo/nfs/flo/Music/", "music root")
+	root = flag.String("root", "/private/var/folders/vr/8ms8qgqj7vn7wqxc21jg4t440000gn/T/com.apple.VoiceMemos/", "music root")
 )
 
 func main() {
